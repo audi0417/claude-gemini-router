@@ -15,19 +15,35 @@ A Claude Code plugin that intelligently routes tasks to Google's Gemini CLI base
 
 ## Installation
 
-### As a Plugin (recommended)
+### Step 1: Add the marketplace
 
-```bash
-# Install from GitHub
-claude /plugin install https://github.com/audi0417/claude-gemini-router
+In Claude Code, run:
+
+```
+/plugin marketplace add audi0417/claude-gemini-router
 ```
 
-### As a Standalone Skill
+### Step 2: Install the plugin
 
-Copy the `skills/gemini/` directory to your Claude config:
+```
+/plugin install gemini-router@claude-gemini-router
+```
+
+Or use the interactive plugin manager:
+
+```
+/plugin
+```
+
+Then navigate to **Discover** tab and select **gemini-router**.
+
+### Alternative: Manual install
+
+Copy the skill files directly:
 
 ```bash
-cp -r skills/gemini ~/.claude/skills/gemini
+git clone https://github.com/audi0417/claude-gemini-router.git
+cp -r claude-gemini-router/plugins/gemini-router/skills/gemini ~/.claude/skills/gemini
 ```
 
 ## How It Works

@@ -1,0 +1,19 @@
+{
+  "name": "claude-gemini-router",
+  "owner": {
+    "name": "audi0417"
+  },
+  "plugins": [
+    {
+      "name": "gemini-router",
+      "source": "./plugins/gemini-router",
+      "description": "Smart Gemini CLI delegation with task scoring and preference learning",
+      "version": "1.0.0",
+      "author": {
+        "name": "audi0417"
+      },
+      "license": "MIT",
+      "keywords": ["gemini", "delegation", "token-saving"]
+    }
+  ]
+}
