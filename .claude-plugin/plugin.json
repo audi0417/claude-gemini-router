@@ -1,0 +1,10 @@
+{
+  "name": "gemini-router",
+  "description": "Smart delegation skill that routes large-context tasks to Gemini CLI, saving Claude tokens. Features automatic task scoring, user preference learning, and dissatisfaction detection.",
+  "version": "1.0.0",
+  "author": {
+    "name": "audi0417"
+  },
+  "repository": "https://github.com/audi0417/claude-gemini-router",
+  "license": "MIT"
+}
